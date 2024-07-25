@@ -1,0 +1,11 @@
+
+    <div class="video-container bg-dark">
+        <video autoplay muted loop *ngFor="let lost of secList">
+          <source [src]="lost.url" type="video/mp4">
+          <!-- Add more <source> elements for other video formats if needed -->
+          
+        </video>
+        <div class="banner-text">
+          Placeholder Video Thanks Angular!
+        </div>
+      </div>
